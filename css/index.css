@@ -1,0 +1,98 @@
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-ul{
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+}
+
+.nav-item{
+  color: white;
+  background-color: rgb(15, 15, 41);
+  margin: 0.5%;
+  border-radius: 7px;
+}
+
+.nav-link{
+  padding: 1.3em 1.5em 1.3em 1.5em;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#inicio {
+  background: lightgray;
+  /*clear: both ;
+  /*poner imagen de fondo*/
+}
+
+.col-4 {
+  background: lightgray;
+  float: left;
+  width: 33.33%;
+}
+
+.col-8 {
+  background: lightgray;
+  float: left;
+  width: 66.66%;
+}
+
+.col-sm-12,
+.col-12 {
+  background: lightgray;
+  float: left;
+  width: 100%;
+}
+
+input,
+textarea,
+select {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 240px;
+  font-family: inherit;
+}
+
+label {
+  box-sizing: border-box;
+  width: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.btnEnviar {
+  box-sizing: border-box;
+  margin-left: 25%;
+}
+
+.btnBtnEnviar {
+  padding: 0.4em 3.5em 0.4em 3.5em;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+form {
+  margin-left: 15%;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
