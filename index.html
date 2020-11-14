@@ -28,105 +28,205 @@
             <a class="nav-link" href="#portafolio">Portafolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
+            <a class="nav-link" href="#form-container">Contacto</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <div id="inicio">PRESENTACION PERSONAL CORTA CON FOTO</div>
-    <div id="acercaDeMi">
-      <h1>ACERCA DE MI</h1>
-      <div class="col-4">
-        <h1>Perfil</h1>
-        <p>
-          Hola! Soy Bill, me apasiona el desarrollo web y estoy en constante
-          aprendizaje.
-        </p>
+    <div id="inicio">
+      <div class="letras-inicio">
+        <h2 id="letra1">Bienvenido,</h2>
+        <h1 id="letra2">Yo Soy Bill</h1>
+        <p id="letra3">Desarrollador Web</p>
       </div>
-      <div class="col-4">
-        <h1>Cursos</h1>
-        <ul>
-          <li>Curso 1</li>
-          <li>Curso 2</li>
-          <li>Curso 3</li>
-        </ul>
-      </div>
-      <div class="col-4">
-        <h1>Experiencia</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
-          error, dolorem rem cum necessitatibus totam facere nemo? Esse, rem est
-          placeat inventore, vitae maxime consectetur, atque odit dolorum
-          mollitia magni!
-        </p>
+      <div class="img-inicio">
+        <img
+          src="/images/clement-h-95YRwf6CNw8-unsplash.jpg"
+          alt="Computador con Editor de Código"
+          width="333px"
+          height="249px"
+        />
       </div>
     </div>
-    <div id="servicios">
-      <h1>SERVICIOS</h1>
-      <div class="wordpress-serv">
-        <img src="" alt="" class="wordpress-serv-img">
-      </div>
-      <div class="e-commerce-serv"></div>
-      <div class="dis-web-serv"></div>
-    </div>
-    <div id="portafolio">
-      <h1>PORTAFOLIO</h1>
-      <div class="portfolio-image">
-        <img src="" alt="computador con editor de código" />
-      </div>
-      <div class="portfolio-image">
-        <img src="" alt="computador con editor de código" />
-      </div>
-      <div class="portfolio-image">
-        <img src="" alt="computador con editor de código" />
-      </div>
-      <div class="portfolio-image">
-        <img src="" alt="computador con editor de código" />
-      </div>
-      <div class="portfolio-image">
-        <img src="" alt="computador con editor de código" />
-      </div>
-      <div class="portfolio-image">
-        <img src="" alt="computador con editor de código" />
-      </div>
-    </div>
-    <div id="contacto" class="col-12" class="container">
-      <h1>CONTACTO</h1>
 
-      <form id="form1" action="" method="get" class="col-12">
-        <div class="entrada1">
-          <label class="col-4" for="name">Nombre</label>
-          <input type="text" required />
+    <div id="acercaDeMi">
+      <div class="acercaMi"><h1>ACERCA DE MI</h1></div>
+
+      <div class="row-container">
+        <div class="col-4">
+          <h1>Perfil</h1>
+          <p class="parrafoS2">
+            Hola! Soy Bill, me apasiona el desarrollo web y estoy en constante
+            aprendizaje.
+          </p>
         </div>
+        <div class="col-4">
+          <h1 id="cursos">Cursos</h1>
+          <ul class="parrafoS2">
+            <li>Curso 1</li>
+            <li>Curso 2</li>
+            <li>Curso 3</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h1>Experiencia</h1>
+          <p class="parrafoS2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
+            error, dolorem rem cum necessitatibus totam facere nemo? Esse, rem
+            est placeat inventore, vitae maxime consectetur, atque odit dolorum
+            mollitia magni!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="servicios">
+      <div id="serv-title"><h1>SERVICIOS</h1></div>
+
+      <div class="row-container">
+        <div class="wordpress-serv">
+          <img
+            src="/images/fikret-tozak-Zk--Ydz2IAs-unsplash.jpg"
+            alt="person writting in computer"
+            class="wordpress-serv-img"
+          />
+          <div class="img-desc">
+            <h2>Wordpress</h2>
+            <p>Lorem ipsum dolores</p>
+          </div>
+        </div>
+
+        <div class="e-commerce-serv">
+          <img
+            src="/images/roberto-cortese-ejhjSZKTeeg-unsplash.jpg"
+            alt=""
+            class="ecommerce-img"
+            width="185px"
+            height="182px"
+          />
+          <div class="img-desc">
+            <h2>E-commerce</h2>
+            <p>Lorem ipsum dolores sit amet</p>
+          </div>
+        </div>
+
+        <div class="dis-web-serv">
+          <img
+            src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+            alt=""
+            class="disweb-img"
+            width="185px"
+            height="182px"
+          />
+          <div class="img-desc">
+            <h2>Diseño Web</h2>
+            <p>Lorem ipsum dolores sit amet</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portafolio">
+      <h1 id="port-header">PORTAFOLIO</h1>
+
+      <div class="row-port">
+        <div class="portfolio-image">
+          <img
+            src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+            alt="computador con editor de código"
+            class="port-img"
+          />
+        </div>
+
+        <div class="portfolio-image">
+          <img
+            src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+            alt="computador con editor de código"
+            class="port-img"
+          />
+        </div>
+
+        <div class="portfolio-image">
+          <img
+            src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+            alt="computador con editor de código"
+            class="port-img"
+          />
+        </div>
+
+        <div class="portfolio-image">
+          <img
+            src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+            alt="computador con editor de código"
+            class="port-img"
+          />
+        </div>
+
+        <div class="portfolio-image">
+          <img
+            src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+            alt="computador con editor de código"
+            class="port-img"
+          />
+        </div>
+
+        <div class="portfolio-image">
+          <img
+            src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+            alt="computador con editor de código"
+            class="port-img"
+          />
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="form-container">
+
+      <form id="form1" action="" method="get" >
+
+      <h1 id="form-title">CONTACTO</h1>
+
+        <div class="entrada1">
+         <label for="">Nombre</label>
+          <input id="name-input" type="text" required />
+        </div>
+
         <div class="entrada2">
-          <label class="col-4" for="">Servicio de su interés</label>
-          <select name="listaServicios" id="listaServicios" required>
-            <option value="">Lista de Servicios</option>
+         <label for="">Servicio de su interés</label>
+          <select id="serv-input" name="listaServicios" id="listaServicios" required>
+            <option value="">---</option>
             <option value="E-commerce">E-commerce</option>
             <option value="Wordpress">Wordpress</option>
             <option value="Diseño Web">Diseño Web</option>
           </select>
         </div>
+
         <div class="entrada3">
-          <label class="col-4" for="email">Correo</label>
-          <input type="email" name="emailInput" id="emailInput" required />
+          <label for="">Correo Electrónico</label>
+          <input type="email"  name="emailInput" id="email-Input" required />
         </div>
+
         <div class="entrada4">
-          <label class="col-4" for="text">Mensaje</label
-          ><textarea
+          <label for="">Mensaje</label>
+          <textarea
             name="mensaje"
-            id="mensajeInput"
+            id="mensaje-input"
             cols="40"
             rows="4"
+          
             required
           ></textarea>
         </div>
-        <div class="btnEnviar">
-          <button class="btnBtnEnviar">Enviar</button>
-        </div>
+
+
+
+
+        <button type="submit" class="btnBtnEnviar">Enviar</button>
       </form>
     </div>
-    <footer>Fecha de Publicacion</footer>
+    <footer><span>Sitio web hecho por Bill Llach (tony-coder-18 </span></span>S.D.G.</span> </footer>
   </body>
 </html>
